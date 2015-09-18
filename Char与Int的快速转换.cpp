@@ -1,17 +1,18 @@
-//Quick Change Between Char And Int
+//整数和字符之间的快速转换
 #include <string>
 #include <map>
 #include <iostream>
 using namespace std;
 int main()
 {
-	map<char,int> CharToInt;   //char to int
+	map<char,int> CharToInt;   //char型转换成int型
 	for(int i=0;i<10;i++)
 		CharToInt['0'+i]=i;
-	map<int, char> IntToChar;   //int to char
+	map<int, char> IntToChar;   //int型转换成char型
 	for(int i=0;i<10;i++)
 		IntToChar[i]='0'+i;
 
+    
     //example: char to int
 	string ss="123";
 	int sum=0;
