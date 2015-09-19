@@ -13,14 +13,15 @@ int main()
 		IntToChar[i]='0'+i;
 
     
-    //example: char to int
+    //案例：char转成int
 	string ss="123";
 	int sum=0;
 	for(int i=0;i<ss.length();i++)
 		sum += CharToInt[ss[i]];
 	cout<<sum<<endl;
-	//example: int to char
-	int n=8;
+    
+	//案例：int转成char
+    int n=8;
 	string s;
 	cout<<s + IntToChar[n]<<endl;
 	return 0;
