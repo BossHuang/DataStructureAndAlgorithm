@@ -5,6 +5,8 @@
 //  Created by Lei Huang on 15/10/24.
 //  Copyright (c) 2015年 LeiHuang. All rights reserved.
 //
+//djkwdjsjdsjdksdjskdj
+//wndnskdnskd
 
 //整数和字符之间的快速转换
 #include <string>
