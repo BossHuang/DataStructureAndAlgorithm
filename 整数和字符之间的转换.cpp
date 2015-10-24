@@ -5,8 +5,7 @@
 //  Created by Lei Huang on 15/10/24.
 //  Copyright (c) 2015年 LeiHuang. All rights reserved.
 //
-//djkwdjsjdsjdksdjskdj
-//wndnskdnskd
+
 
 //整数和字符之间的快速转换
 #include <string>
@@ -15,11 +14,13 @@
 using namespace std;
 int main()
 {
-    map<char,int> CharToInt;   //char型转换成int型
+    //char型转换成int型
+    map<char,int> CharToInt;
     for(int i=0;i<10;i++)
         CharToInt['0'+i]=i;
     
-    map<int, char> IntToChar;   //int型转换成char型
+    //int型转换成char型
+    map<int, char> IntToChar;
     for(int i=0;i<10;i++)
         IntToChar[i]='0'+i;
     
